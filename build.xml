@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="compile" name="stock">
+	<!--Load properties file-->
+	<property file="build.properties" />
+
+	<!-- App name-dependent settings. -->
+	<property name="appname" value="${ant.project.name}" />
+	<property name="distname" value="searchindex" />
+	<property name="ear" value="${appname}.ear" />
+	<property name="war" value="${appname}.war" />
+	<property name="jar" value="${appname}.jar" />
+
+	<!-- change this property to use a compiler other than javac. -->
+	<property name="build.compiler" value="modern" />
+
+	<!-- App directory structure. -->
+	<property name="src" value="${basedir}\src" />
+	<property name="classes" value="${basedir}\classes" />
+	<property name="lib" value="${basedir}\lib" />
+	<property name="config" value="${basedir}\config" />
+	<property name="workspace" value="D:/dataserver" />
+
+	<tstamp>
+		<format property="build.date" pattern="yyyy-MM-dd HH:mm" />
+	</tstamp>
+	
+	<target name="compile" depends="dist">
+		<javac debug="on" deprecation="yes" destdir="${classes}" includes="**" excludes="*Test" optimize="on" srcdir="${src}" encoding="UTF-8">
+			<classpath refid="build.classpath" />
+		</javac>
+	</target>
+
+
+	<target name="dist" description="copy file to workspace">
+		<!--copy todir="${workspace}\classes">
+			<fileset dir="${classes}">
+				<exclude name="*.properties" />
+			</fileset>
+		</copy-->
+	</target>
+
+	
+	<!-- Make remote interface -->
+	<target name="jar.game" depends="compile">
+		<delete verbose="true" deleteonexit="true">
+			<fileset dir="lib">
+				<include name="${jar.name}" />
+			</fileset>
+		</delete>
+		<jar jarfile="lib/${jar.name}">
+			<fileset dir="${classes}">
+				<!--include name="com/easou/search/server/**/*.class" /-->
+				<exclude name="*.properties" />
+			</fileset>
+		</jar>
+		<copy file="lib/${jar.name}" todir="D:/appdevelop/deploy/dataserver/lib" />
+		<copy file="lib/${jar.name}" todir="D:/appdevelop/deploy/alertclient/lib" />
+		<copy file="lib/${jar.name}" todir="D:/appdevelop/deploy/andriodserver/lib" />
+		<!--copy file="lib/${jar.name}" todir="/appdata/stock/crawl/lib" /-->
+	</target>
+
+	<!-- Make remote interface -->
+	<target name="jar.test" depends="compile">
+		<delete verbose="true" deleteonexit="true">
+			<fileset dir="lib">
+				<include name="futruetest.jar" />
+			</fileset>
+		</delete>
+		<jar jarfile="lib/futruetest.jar">
+			<fileset dir="${classes}">
+				<!--include name="com/easou/search/server/**/*.class" /-->
+				<exclude name="audio/*.*" />
+			</fileset>
+		</jar>
+		<copy file="lib/futruetest.jar" todir="D:/futuretest/lib" />
+	</target>
+</project>

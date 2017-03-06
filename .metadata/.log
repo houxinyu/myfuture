@@ -1,0 +1,81 @@
+!SESSION 2016-11-04 01:58:32.350 -----------------------------------------------
+eclipse.buildId=I20050811-1530
+java.version=1.5.0_05
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -data E:\360云盘\同步文件\软件\tools\eclipsejava.bak20161104\javawork\myfuture -os win32 -ws win32 -arch x86
+
+!ENTRY com.ibm.sse.snippets 4 4 2016-11-04 01:58:42.136
+!MESSAGE SnippetManager could not load hidden state
+!STACK 0
+java.net.MalformedURLException: unknown protocol: e
+	at java.net.URL.<init>(URL.java:574)
+	at java.net.URL.<init>(URL.java:464)
+	at java.net.URL.<init>(URL.java:413)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(XMLEntityManager.java:968)
+	at com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(XMLVersionDetector.java:184)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:798)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:764)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:148)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:250)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:292)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:146)
+	at com.ibm.sse.snippets.internal.model.SnippetManager.loadHiddenState(SnippetManager.java:251)
+	at com.ibm.sse.snippets.internal.model.SnippetManager.getDefinitions(SnippetManager.java:142)
+	at com.genuitec.eclipse.snippetinstaller.SnippetInstaller.installLibrary(SnippetInstaller.java:41)
+	at com.aston.AstonWizardsPlugin.installSnippetLibraries(AstonWizardsPlugin.java:330)
+	at com.aston.AstonWizardsPlugin.startup(AstonWizardsPlugin.java:290)
+	at org.eclipse.core.internal.compatibility.PluginActivator.start(PluginActivator.java:31)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:994)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:988)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:969)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:313)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:264)
+	at org.eclipse.core.internal.plugins.PluginDescriptor.doPluginActivation(PluginDescriptor.java:361)
+	at org.eclipse.core.internal.plugins.PluginDescriptor.getPlugin(PluginDescriptor.java:340)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:585)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.getPluginForCompatibility(EarlyStartupRunnable.java:145)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:73)
+	at org.eclipse.core.internal.runtime.InternalPlatform.run(InternalPlatform.java:1044)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:783)
+	at org.eclipse.ui.internal.Workbench$20.run(Workbench.java:1622)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:76)
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-04 01:58:42.326
+!MESSAGE Installed snippet library: e:\360云盘\同步文件\软件\tools\eclipsejava\eclipse_plugins\myeclipse_4\eclipse\plugins\com.genuitec.eclipse.wizards_4.1.1\snippets\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-04 01:58:42.357
+!MESSAGE Installed snippet library: e:\360云盘\同步文件\软件\tools\eclipsejava\eclipse_plugins\myeclipse_4\eclipse\plugins\com.genuitec.eclipse.wizards_4.1.1\snippets\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-04 01:58:42.384
+!MESSAGE Installed snippet library: e:\360云盘\同步文件\软件\tools\eclipsejava\eclipse_plugins\myeclipse_4\eclipse\plugins\com.genuitec.eclipse.wizards_4.1.1\snippets\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-04 01:58:42.468
+!MESSAGE Installed snippet library: e:\360云盘\同步文件\软件\tools\eclipsejava\eclipse_plugins\myeclipse_4\eclipse\plugins\com.genuitec.eclipse.wizards_4.1.1\snippets\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-04 01:58:42.494
+!MESSAGE Installed snippet library: e:\360云盘\同步文件\软件\tools\eclipsejava\eclipse_plugins\myeclipse_4\eclipse\plugins\com.genuitec.eclipse.wizards_4.1.1\snippets\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-04 01:58:42.526
+!MESSAGE Installed snippet library: e:\360云盘\同步文件\软件\tools\eclipsejava\eclipse_plugins\myeclipse_4\eclipse\plugins\com.genuitec.eclipse.wizards_4.1.1\snippets\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-04 01:58:42.658
+!MESSAGE Installed snippet library: e:\360云盘\同步文件\软件\tools\eclipsejava\eclipse_plugins\myeclipse_4\eclipse\plugins\com.genuitec.eclipse.wizards_4.1.1\snippets\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-04 01:58:42.687
+!MESSAGE Installed snippet library: e:\360云盘\同步文件\软件\tools\eclipsejava\eclipse_plugins\myeclipse_4\eclipse\plugins\com.genuitec.eclipse.wizards_4.1.1\snippets\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-04 01:58:42.734
+!MESSAGE Installed snippet library: e:\360云盘\同步文件\软件\tools\eclipsejava\eclipse_plugins\myeclipse_4\eclipse\plugins\com.genuitec.eclipse.wizards_4.1.1\snippets\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-04 01:58:42.773
+!MESSAGE Installed snippet library: e:\360云盘\同步文件\软件\tools\eclipsejava\eclipse_plugins\myeclipse_4\eclipse\plugins\com.genuitec.eclipse.wizards_4.1.1\snippets\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-11-04 01:58:42.792
+!MESSAGE Installed snippet library: e:\360云盘\同步文件\软件\tools\eclipsejava\eclipse_plugins\myeclipse_4\eclipse\plugins\com.genuitec.eclipse.wizards_4.1.1\snippets\struts_tiles_snippets.xml
+
+!ENTRY com.genuitec.eclipse.core 1 0 2016-11-04 01:59:33.777
+!MESSAGE Unable to locate .myeclipse.properties file

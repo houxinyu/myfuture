@@ -1,0 +1,116 @@
+[09:39:09.000] [analyse.Analyse,294] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at macd.MaAndMacd.获取结构类型(MaAndMacd.java:230)
+	at analyse.Analyse.计算撑压位置(Analyse.java:202)
+	at analyse.Analyse.main(Analyse.java:303)
+[09:41:17.621] [analyse.Analyse,295] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at macd.MaAndMacd.获取结构类型(MaAndMacd.java:230)
+	at analyse.Analyse.计算撑压位置(Analyse.java:206)
+	at analyse.Analyse.main(Analyse.java:304)
+[12:43:17.334] [analyse.Analyse,324] - java.lang.ArrayIndexOutOfBoundsException: 13
+java.lang.ArrayIndexOutOfBoundsException: 13
+	at analyse.Analyse.listToTable(Analyse.java:347)
+	at analyse.Analyse.计算撑压位置(Analyse.java:309)
+	at analyse.Analyse.main(Analyse.java:359)
+[13:30:24.845] [tool.MailTool,69] - com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp8,DMCowABHcnzza0VYBh8MFA--.40537S2 1480944628,please see http://mail.163.com/help/help_spam_16.htm?ip=219.147.140.203&hostid=smtp8&time=1480944628
+
+com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp8,DMCowABHcnzza0VYBh8MFA--.40537S2 1480944628,please see http://mail.163.com/help/help_spam_16.htm?ip=219.147.140.203&hostid=smtp8&time=1480944628
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:1668)
+	at com.sun.mail.smtp.SMTPTransport.finishData(SMTPTransport.java:1473)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:738)
+	at tool.MailTool.sendMail(MailTool.java:48)
+	at tool.MailTool.sendMail(MailTool.java:66)
+	at analyse.Analyse.计算撑压位置(Analyse.java:314)
+	at analyse.Analyse.main(Analyse.java:362)
+[13:32:24.236] [tool.MailTool,69] - com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp8,DMCowACHknxrbEVYg0kMFA--.61097S2 1480944747,please see http://mail.163.com/help/help_spam_16.htm?ip=219.147.140.203&hostid=smtp8&time=1480944747
+
+com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp8,DMCowACHknxrbEVYg0kMFA--.61097S2 1480944747,please see http://mail.163.com/help/help_spam_16.htm?ip=219.147.140.203&hostid=smtp8&time=1480944747
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:1668)
+	at com.sun.mail.smtp.SMTPTransport.finishData(SMTPTransport.java:1473)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:738)
+	at tool.MailTool.sendMail(MailTool.java:48)
+	at tool.MailTool.sendMail(MailTool.java:66)
+	at analyse.Analyse.计算撑压位置(Analyse.java:314)
+	at analyse.Analyse.main(Analyse.java:362)
+[13:34:13.927] [tool.MailTool,69] - com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp8,DMCowAAnnOHXbEVY5HAMFA--.40186S2 1480944857,please see http://mail.163.com/help/help_spam_16.htm?ip=219.147.140.203&hostid=smtp8&time=1480944857
+
+com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp8,DMCowAAnnOHXbEVY5HAMFA--.40186S2 1480944857,please see http://mail.163.com/help/help_spam_16.htm?ip=219.147.140.203&hostid=smtp8&time=1480944857
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:1668)
+	at com.sun.mail.smtp.SMTPTransport.finishData(SMTPTransport.java:1473)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:738)
+	at tool.MailTool.sendMail(MailTool.java:48)
+	at tool.MailTool.sendMail(MailTool.java:66)
+	at analyse.Analyse.计算撑压位置(Analyse.java:314)
+	at analyse.Analyse.main(Analyse.java:362)
+[13:38:49.651] [tool.MailTool,69] - com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp8,DMCowABnNn_sbUVYUKsMFA--.38726S2 1480945133,please see http://mail.163.com/help/help_spam_16.htm?ip=219.147.140.203&hostid=smtp8&time=1480945133
+
+com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp8,DMCowABnNn_sbUVYUKsMFA--.38726S2 1480945133,please see http://mail.163.com/help/help_spam_16.htm?ip=219.147.140.203&hostid=smtp8&time=1480945133
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:1668)
+	at com.sun.mail.smtp.SMTPTransport.finishData(SMTPTransport.java:1473)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:738)
+	at tool.MailTool.sendMail(MailTool.java:48)
+	at tool.MailTool.sendMail(MailTool.java:66)
+	at analyse.Analyse.计算撑压位置(Analyse.java:314)
+	at analyse.Analyse.main(Analyse.java:364)
+[13:47:56.649] [tool.MailTool,69] - com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp12,EMCowAB3vcIOcEVYGQKsEw--.10508S2 1480945679,please see http://mail.163.com/help/help_spam_16.htm?ip=219.147.140.203&hostid=smtp12&time=1480945679
+
+com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp12,EMCowAB3vcIOcEVYGQKsEw--.10508S2 1480945679,please see http://mail.163.com/help/help_spam_16.htm?ip=219.147.140.203&hostid=smtp12&time=1480945679
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:1668)
+	at com.sun.mail.smtp.SMTPTransport.finishData(SMTPTransport.java:1473)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:738)
+	at tool.MailTool.sendMail(MailTool.java:48)
+	at tool.MailTool.sendMail(MailTool.java:66)
+	at analyse.Analyse.计算撑压位置(Analyse.java:314)
+	at analyse.Analyse.main(Analyse.java:364)
+[13:49:39.928] [tool.MailTool,69] - com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp12,EMCowADX79N2cEVYThesEw--.22477S2 1480945783,please see http://mail.163.com/help/help_spam_16.htm?ip=219.147.140.203&hostid=smtp12&time=1480945783
+
+com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp12,EMCowADX79N2cEVYThesEw--.22477S2 1480945783,please see http://mail.163.com/help/help_spam_16.htm?ip=219.147.140.203&hostid=smtp12&time=1480945783
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:1668)
+	at com.sun.mail.smtp.SMTPTransport.finishData(SMTPTransport.java:1473)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:738)
+	at tool.MailTool.sendMail(MailTool.java:48)
+	at tool.MailTool.sendMail(MailTool.java:66)
+	at analyse.Analyse.计算撑压位置(Analyse.java:314)
+	at analyse.Analyse.main(Analyse.java:364)
+[13:55:34.499] [tool.MailTool,69] - com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp12,EMCowAAnl9PZcUVY7mmsEw--.20397S2 1480946137,please see http://mail.163.com/help/help_spam_16.htm?ip=219.147.140.203&hostid=smtp12&time=1480946137
+
+com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp12,EMCowAAnl9PZcUVY7mmsEw--.20397S2 1480946137,please see http://mail.163.com/help/help_spam_16.htm?ip=219.147.140.203&hostid=smtp12&time=1480946137
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:1668)
+	at com.sun.mail.smtp.SMTPTransport.finishData(SMTPTransport.java:1473)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:738)
+	at tool.MailTool.sendMail(MailTool.java:48)
+	at tool.MailTool.sendMail(MailTool.java:66)
+	at analyse.Analyse.计算撑压位置(Analyse.java:314)
+	at analyse.Analyse.main(Analyse.java:364)
+[14:05:19.345] [tool.MailTool,74] - javax.mail.AuthenticationFailedException: failed to connect
+javax.mail.AuthenticationFailedException: failed to connect
+	at javax.mail.Service.connect(Service.java:322)
+	at javax.mail.Service.connect(Service.java:172)
+	at tool.MailTool.sendMail(MailTool.java:50)
+	at tool.MailTool.sendMail(MailTool.java:71)
+	at analyse.Analyse.计算撑压位置(Analyse.java:314)
+	at analyse.Analyse.main(Analyse.java:364)
+[14:11:08.854] [tool.MailTool,78] - javax.mail.AuthenticationFailedException: failed to connect
+javax.mail.AuthenticationFailedException: failed to connect
+	at javax.mail.Service.connect(Service.java:322)
+	at javax.mail.Service.connect(Service.java:172)
+	at tool.MailTool.sendMail(MailTool.java:54)
+	at tool.MailTool.sendMail(MailTool.java:75)
+	at analyse.Analyse.计算撑压位置(Analyse.java:314)
+	at analyse.Analyse.main(Analyse.java:364)
+[14:13:57.004] [tool.MailTool,79] - javax.mail.AuthenticationFailedException: failed to connect
+javax.mail.AuthenticationFailedException: failed to connect
+	at javax.mail.Service.connect(Service.java:322)
+	at javax.mail.Service.connect(Service.java:172)
+	at tool.MailTool.sendMail(MailTool.java:55)
+	at tool.MailTool.sendMail(MailTool.java:76)
+	at analyse.Analyse.计算撑压位置(Analyse.java:314)
+	at analyse.Analyse.main(Analyse.java:364)

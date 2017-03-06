@@ -1,0 +1,32 @@
+[17:32:01.918] [analyse.Analyse,248] - javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+javax.mail.MessagingException: Can't send command to SMTP host;
+  nested exception is:
+	javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:1717)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:1704)
+	at com.sun.mail.smtp.SMTPTransport.simpleCommand(SMTPTransport.java:1681)
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:547)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:507)
+	at javax.mail.Service.connect(Service.java:313)
+	at javax.mail.Service.connect(Service.java:172)
+	at javax.mail.Service.connect(Service.java:121)
+	at javax.mail.Transport.send0(Transport.java:190)
+	at javax.mail.Transport.send(Transport.java:120)
+	at tool.MailTool.qqMail(MailTool.java:139)
+	at analyse.Analyse.发送邮件(Analyse.java:243)
+	at analyse.Analyse.main(Analyse.java:458)
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.recvAlert(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.writeRecord(Unknown Source)
+	at sun.security.ssl.AppOutputStream.write(Unknown Source)
+	at com.sun.mail.util.TraceOutputStream.write(TraceOutputStream.java:110)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at com.sun.mail.smtp.SMTPTransport.sendCommand(SMTPTransport.java:1715)
+	... 12 more

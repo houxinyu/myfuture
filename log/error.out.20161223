@@ -1,0 +1,8 @@
+[09:44:37.485] [tool.文件处理工具,34] - java.io.FileNotFoundException: D:\dataserver\log\analy20161223.csv (系统找不到指定的文件。)
+java.io.FileNotFoundException: D:\dataserver\log\analy20161223.csv (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.io.FileInputStream.<init>(FileInputStream.java:66)
+	at tool.文件处理工具.读取文本数据(文件处理工具.java:22)
+	at macd.AlertUtil.获得商品R值(AlertUtil.java:39)
+	at macd.AlertUtil.main(AlertUtil.java:352)

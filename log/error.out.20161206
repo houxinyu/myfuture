@@ -1,0 +1,379 @@
+[01:55:39.484] [macd.DataHandle,968] - java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:936)
+	at macd.DataHandle.main(DataHandle.java:1847)
+[01:55:39.873] [macd.DataHandle,968] - java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:936)
+	at macd.DataHandle.main(DataHandle.java:1847)
+[01:55:40.179] [macd.DataHandle,968] - java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:936)
+	at macd.DataHandle.main(DataHandle.java:1847)
+[01:55:40.495] [macd.DataHandle,968] - java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:936)
+	at macd.DataHandle.main(DataHandle.java:1847)
+[01:59:26.019] [macd.DataHandle,969] - java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:937)
+	at macd.DataHandle.main(DataHandle.java:1848)
+[01:59:26.408] [macd.DataHandle,969] - java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:937)
+	at macd.DataHandle.main(DataHandle.java:1848)
+[01:59:26.763] [macd.DataHandle,969] - java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:937)
+	at macd.DataHandle.main(DataHandle.java:1848)
+[01:59:27.115] [macd.DataHandle,969] - java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+java.lang.IndexOutOfBoundsException: Index: 764, Size: 764
+	at java.util.ArrayList.RangeCheck(ArrayList.java:547)
+	at java.util.ArrayList.get(ArrayList.java:322)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:937)
+	at macd.DataHandle.main(DataHandle.java:1848)
+[02:56:58.565] [tool.网页工具,46] - java.net.UnknownHostException: stock2.finance.sina.com.cn
+java.net.UnknownHostException: stock2.finance.sina.com.cn
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:177)
+	at java.net.Socket.connect(Socket.java:507)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:152)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:365)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:477)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:214)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:287)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:299)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:792)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:744)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:669)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:913)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:367)
+	at tool.网页工具.get(网页工具.java:43)
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:639)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.586] [macd.DataHandle,649] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:642)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.615] [macd.DataHandle,1708] - java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+	at java.text.DateFormat.parse(DateFormat.java:335)
+	at macd.DataHandle.loadHisData(DataHandle.java:1700)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.617] [macd.DataHandle,970] - java.lang.ArrayIndexOutOfBoundsException: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at macd.DataHandle.loadHisData(DataHandle.java:1716)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.618] [tool.网页工具,46] - java.net.UnknownHostException: stock2.finance.sina.com.cn
+java.net.UnknownHostException: stock2.finance.sina.com.cn
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:177)
+	at java.net.Socket.connect(Socket.java:507)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:152)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:365)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:477)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:214)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:287)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:299)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:792)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:744)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:669)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:913)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:367)
+	at tool.网页工具.get(网页工具.java:43)
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:639)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.619] [macd.DataHandle,649] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:642)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.619] [macd.DataHandle,1708] - java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+	at java.text.DateFormat.parse(DateFormat.java:335)
+	at macd.DataHandle.loadHisData(DataHandle.java:1700)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.620] [macd.DataHandle,970] - java.lang.ArrayIndexOutOfBoundsException: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at macd.DataHandle.loadHisData(DataHandle.java:1716)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.621] [tool.网页工具,46] - java.net.UnknownHostException: stock2.finance.sina.com.cn
+java.net.UnknownHostException: stock2.finance.sina.com.cn
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:177)
+	at java.net.Socket.connect(Socket.java:507)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:152)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:365)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:477)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:214)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:287)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:299)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:792)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:744)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:669)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:913)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:367)
+	at tool.网页工具.get(网页工具.java:43)
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:639)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.621] [macd.DataHandle,649] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:642)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.622] [macd.DataHandle,1708] - java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+	at java.text.DateFormat.parse(DateFormat.java:335)
+	at macd.DataHandle.loadHisData(DataHandle.java:1700)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.623] [macd.DataHandle,970] - java.lang.ArrayIndexOutOfBoundsException: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at macd.DataHandle.loadHisData(DataHandle.java:1716)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.624] [tool.网页工具,46] - java.net.UnknownHostException: stock2.finance.sina.com.cn
+java.net.UnknownHostException: stock2.finance.sina.com.cn
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:177)
+	at java.net.Socket.connect(Socket.java:507)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:152)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:365)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:477)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:214)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:287)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:299)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:792)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:744)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:669)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:913)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:367)
+	at tool.网页工具.get(网页工具.java:43)
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:639)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.625] [macd.DataHandle,649] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:642)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.626] [macd.DataHandle,1708] - java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+	at java.text.DateFormat.parse(DateFormat.java:335)
+	at macd.DataHandle.loadHisData(DataHandle.java:1700)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:56:58.627] [macd.DataHandle,970] - java.lang.ArrayIndexOutOfBoundsException: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at macd.DataHandle.loadHisData(DataHandle.java:1716)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.747] [tool.网页工具,46] - java.net.UnknownHostException: stock2.finance.sina.com.cn
+java.net.UnknownHostException: stock2.finance.sina.com.cn
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:177)
+	at java.net.Socket.connect(Socket.java:507)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:152)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:365)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:477)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:214)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:287)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:299)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:792)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:744)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:669)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:913)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:367)
+	at tool.网页工具.get(网页工具.java:43)
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:639)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.754] [macd.DataHandle,649] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:642)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.756] [macd.DataHandle,1708] - java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+	at java.text.DateFormat.parse(DateFormat.java:335)
+	at macd.DataHandle.loadHisData(DataHandle.java:1700)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.757] [macd.DataHandle,970] - java.lang.ArrayIndexOutOfBoundsException: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at macd.DataHandle.loadHisData(DataHandle.java:1716)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.758] [tool.网页工具,46] - java.net.UnknownHostException: stock2.finance.sina.com.cn
+java.net.UnknownHostException: stock2.finance.sina.com.cn
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:177)
+	at java.net.Socket.connect(Socket.java:507)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:152)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:365)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:477)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:214)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:287)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:299)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:792)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:744)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:669)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:913)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:367)
+	at tool.网页工具.get(网页工具.java:43)
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:639)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.759] [macd.DataHandle,649] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:642)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.759] [macd.DataHandle,1708] - java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+	at java.text.DateFormat.parse(DateFormat.java:335)
+	at macd.DataHandle.loadHisData(DataHandle.java:1700)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.760] [macd.DataHandle,970] - java.lang.ArrayIndexOutOfBoundsException: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at macd.DataHandle.loadHisData(DataHandle.java:1716)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.761] [tool.网页工具,46] - java.net.UnknownHostException: stock2.finance.sina.com.cn
+java.net.UnknownHostException: stock2.finance.sina.com.cn
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:177)
+	at java.net.Socket.connect(Socket.java:507)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:152)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:365)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:477)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:214)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:287)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:299)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:792)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:744)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:669)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:913)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:367)
+	at tool.网页工具.get(网页工具.java:43)
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:639)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.761] [macd.DataHandle,649] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:642)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.762] [macd.DataHandle,1708] - java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+	at java.text.DateFormat.parse(DateFormat.java:335)
+	at macd.DataHandle.loadHisData(DataHandle.java:1700)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.764] [macd.DataHandle,970] - java.lang.ArrayIndexOutOfBoundsException: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at macd.DataHandle.loadHisData(DataHandle.java:1716)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.765] [tool.网页工具,46] - java.net.UnknownHostException: stock2.finance.sina.com.cn
+java.net.UnknownHostException: stock2.finance.sina.com.cn
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:177)
+	at java.net.Socket.connect(Socket.java:507)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:152)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:365)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:477)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:214)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:287)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:299)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:792)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:744)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:669)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:913)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:367)
+	at tool.网页工具.get(网页工具.java:43)
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:639)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.767] [macd.DataHandle,649] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:642)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.768] [macd.DataHandle,1708] - java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+	at java.text.DateFormat.parse(DateFormat.java:335)
+	at macd.DataHandle.loadHisData(DataHandle.java:1700)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[02:59:59.769] [macd.DataHandle,970] - java.lang.ArrayIndexOutOfBoundsException: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at macd.DataHandle.loadHisData(DataHandle.java:1716)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[03:04:37.734] [tool.网页工具,46] - java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:218)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:256)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:313)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:606)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:554)
+	at sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:571)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:936)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:367)
+	at tool.网页工具.get(网页工具.java:43)
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:639)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[03:04:37.736] [macd.DataHandle,649] - java.lang.NullPointerException
+java.lang.NullPointerException
+	at macd.DataHandle.抓新浪取历史数据(DataHandle.java:642)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:921)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[03:04:37.737] [macd.DataHandle,1708] - java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+java.text.ParseException: Unparseable date: "ERROR 00:00:00"
+	at java.text.DateFormat.parse(DateFormat.java:335)
+	at macd.DataHandle.loadHisData(DataHandle.java:1700)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[03:04:37.737] [macd.DataHandle,970] - java.lang.ArrayIndexOutOfBoundsException: 1
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at macd.DataHandle.loadHisData(DataHandle.java:1716)
+	at macd.DataHandle.处理历史周线数据(DataHandle.java:924)
+	at macd.DataHandle.main(DataHandle.java:1849)
+[10:00:01.560] [analyse.Analyse,312] - javax.mail.AuthenticationFailedException: failed to connect
+javax.mail.AuthenticationFailedException: failed to connect
+	at javax.mail.Service.connect(Service.java:322)
+	at javax.mail.Service.connect(Service.java:172)
+	at javax.mail.Service.connect(Service.java:121)
+	at javax.mail.Transport.send0(Transport.java:190)
+	at javax.mail.Transport.send(Transport.java:120)
+	at tool.MailTool.qqMail(MailTool.java:140)
+	at analyse.Analyse.计算撑压位置(Analyse.java:309)
+	at analyse.Analyse.main(Analyse.java:374)
+[13:42:27.646] [analyse.Analyse,295] - javax.mail.AuthenticationFailedException: failed to connect
+javax.mail.AuthenticationFailedException: failed to connect
+	at javax.mail.Service.connect(Service.java:322)
+	at javax.mail.Service.connect(Service.java:172)
+	at javax.mail.Service.connect(Service.java:121)
+	at javax.mail.Transport.send0(Transport.java:190)
+	at javax.mail.Transport.send(Transport.java:120)
+	at tool.MailTool.qqMail(MailTool.java:139)
+	at analyse.Analyse.计算撑压位置(Analyse.java:292)
+	at analyse.Analyse.main(Analyse.java:471)
